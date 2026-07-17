@@ -24,7 +24,7 @@ hdc.exe list targets
 Example:
 
 ```text
-hdc.exe tconn 192.168.8.105:39159
+hdc.exe tconn 192.168.1.105:39159
 ```
 
 ### Install a HAP package
@@ -34,5 +34,4 @@ After connecting to the device:
 ```text
 hdc.exe install path\to\app.hap
 ```
-
-HAP packages are ignored by Git and are not part of the CLI bundle.
+ 
